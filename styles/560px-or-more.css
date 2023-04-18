@@ -1,0 +1,58 @@
+@media only screen and (max-width: 759px) {
+
+    .mc-1 img {
+        position: relative;
+        width: 50vh;
+
+        height: 50vh;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+
+    }
+
+    .container2 img {
+        position: relative;
+        width: 50vh;
+
+        height: 50vh;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .mc-1 p {
+        padding: 80px;
+        font-size: 18px;
+
+        font-weight: 200;
+
+        text-align: center;
+    }
+
+    #figure-two {
+        float: left;
+        width: 300px;
+        padding: 10px;
+
+    }
+
+    .container2 p {
+        padding: 80px;
+        font-size: 18px;
+
+        font-weight: 200;
+    }
+}

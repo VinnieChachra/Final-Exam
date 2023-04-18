@@ -1,0 +1,76 @@
+@media only screen and (min-width: 760px) {
+
+    /* MAIN CONTENT */
+    #main-content {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-content: center;
+        grid-template-areas: "aside main";
+        background-color: white;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+
+    /* MAIN */
+    main {
+        grid-area: main;
+        padding: 10px;
+
+
+    }
+
+    cite>a {
+        color: rgb(47, 100, 181);
+    }
+
+    #figure-one {
+        float: left;
+        width: 300px;
+        padding: 10px;
+
+    }
+
+    #figure-two {
+        float: right;
+        width: 300px;
+        padding: 10px;
+
+    }
+
+
+    /* ASIDE */
+    aside {
+        grid-area: aside;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        border-radius: 5px;
+
+    }
+
+    .grey-list {
+        background-color: rgb(184, 180, 180);
+    }
+
+    aside>ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    aside>h2 {
+        background-color: royalblue;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    aside>ul>li {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    aside>ul>li>strong {
+        font-size: larger;
+    }
+}
